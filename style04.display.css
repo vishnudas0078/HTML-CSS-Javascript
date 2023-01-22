@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: grey;
+    color: white;
+    height: 70px;
+    text-align: right;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px 40px;
+}
+
+.container {
+    border: 2px solid red;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin: 20px 100px;
+}
+
+.box1 {
+    background-image: url(images/laptop.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 1px solid blue;
+    display: inline-block;
+    width: 420px;
+    height: 250px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.box2 {
+    background-image: url(images/iphone.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 1px solid blue;
+    display: inline-block;
+    width: 420px;
+    height: 250px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.box3 {
+    background-image: url(images/headset.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    border: 1px solid blue;
+    display: inline-block;
+    width: 420px;
+    height: 250px;
+    margin: 10px 5px;
+    padding: 5px 10px;
+    text-align: right;
+}
+
+.underbox {
+    border: 1px solid green;
+    display: inline-block;
+    text-align: justify;
+    padding: 10px;
+    height: 222px;
+    width: 182px;
+}
+
+h2 {
+    text-align: center;
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
