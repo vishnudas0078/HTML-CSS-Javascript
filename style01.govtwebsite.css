@@ -1,0 +1,58 @@
+header {
+    background-color: rgb(95 200 221);
+    padding: 5px;
+    margin: 5px;
+    font-size: 40px;
+    text-align: center;
+}
+
+
+body {
+    /* ( Fade background color ) */
+    background: linear-gradient(to right,
+            rgb(255, 72, 0),
+            rgb(255, 255, 255),
+            rgb(25, 180, 38));
+}
+
+.listitem {
+    display: inline;
+    letter-spacing: 6px;
+}
+
+.container {
+    background-color: rgb(68, 98, 168);
+    border: solid rgb(134, 209, 140) 3px;
+    border-radius: 20px;
+    margin: 20px 20px 20px 20px;
+    padding: 20px;
+    width: 530px;
+}
+
+
+p {
+    font-size: 15px;
+    color: white;
+}
+
+p:hover {
+
+    /* background-color: rgb(54, 59, 57); */
+
+    color: white;
+    font-size: 16px;
+}
+
+p:active {
+    font-size: 17px;
+}
+
+
+#headerdiv:hover {
+    font-size: 18px;
+}
+
+#headerdiv:active {
+    font-size: 20px;
+
+}
